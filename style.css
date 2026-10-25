@@ -22,3 +22,22 @@ html{scroll-behavior:smooth}
 @media(min-width:1100px){.screen,.section{padding-left:10vw;padding-right:10vw}.intro-title{font-size:80px}.door-scene{transform:scale(1.02);margin-top:36px;margin-bottom:30px}.memory-grid{column-gap:44px}.memory-tall .photo-frame{height:490px}.photo-wide{height:300px}.wish-grid{gap:18px}}
 @media(max-width:720px){.intro:before,.finale:before{inset:28px 12px}.door-scene{width:240px;height:250px;margin:20px auto}.intro-title{font-size:clamp(43px,12vw,56px)}.intro-copy{font-size:11px}.hero:before{width:95vw}.hero:after{right:10%;top:21%}.section-heading h2,.letter-card h2{font-size:clamp(42px,11vw,57px)}.memory-grid{gap:22px 12px}.memory-tall .photo-frame{height:300px}.photo-wide{height:170px}.caption-script{font-size:23px}.wish-card{border-radius:3px}.wish-title{font-size:25px}.wish-hint{font-size:9px}.letter-card{box-shadow:0 20px 65px #0006,inset 0 0 0 5px #e7c58b06}.cake-stage{height:320px}.cake-art{transform:scale(.95)}.cake-art:hover{transform:scale(.98)}.finale>p:not(.eyebrow){font-size:17px}.finale footer{letter-spacing:.12em;line-height:1.8}}
 @media(prefers-reduced-motion:reduce){.ambient:after,.door-scene:before,.cake-halo{animation:none!important}}
+
+.birthday-name {
+  display: block;
+  margin-top: 12px;
+  font-family: Georgia, serif;
+  font-size: clamp(32px, 8vw, 72px);
+  font-weight: bold;
+  letter-spacing: 3px;
+  background: linear-gradient(
+    120deg,
+    #fff2bd,
+    #d6a647,
+    #fff9e8
+  );
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  text-shadow: 0 0 18px rgba(255, 210, 110, 0.2);
+                        }
